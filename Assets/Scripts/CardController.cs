@@ -33,6 +33,7 @@ public class CardController : MonoBehaviour
                 titleUI.SetText(titles[i]);
                 descUI.SetText(desc[i]);
                 descinvUI.SetText(descinv[i]);
+                creditUI.SetText(credit[i]);
                 cardUp.sprite = cards[i];
                 cardDown.sprite = cards[i];
             }
